@@ -1,0 +1,105 @@
+/*
+Theme Name: Infra Premium Theme
+Theme URI: http://infra.orange-themes.com/
+Description: Infra Premium Wordpress Theme
+Author: Orange Themes
+Author URI: http://www.orange-themes.com/
+Version: 1.0.0
+Tags:
+License: GNU General Public License
+License URI: README_License.txt
+*/
+
+/** Wordpress default clases */
+
+/* calendar widget */
+#wp-calendar {
+    width: 100%;
+}
+#wp-calendar caption {
+    text-align: right;
+    color: #636E88;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#wp-calendar thead {
+    font-size: 10px;
+}
+#wp-calendar thead th {
+    padding-bottom: 10px; text-align: center;
+}
+#wp-calendar tbody {
+    color: #676767;
+}
+#wp-calendar tbody td {
+    background-color: #f5f5f5; border: 1px solid; border-color: #fff; text-align: center; padding:8px;
+}
+#wp-calendar tbody td:hover {
+    background: #fff;
+}
+#wp-calendar tbody .pad {
+    background: none;
+}
+#wp-calendar tfoot #next {
+    font-size: 10px; text-transform: uppercase; text-align: right;
+}
+#wp-calendar tfoot #prev {
+    font-size: 10px; text-transform: uppercase; padding-top: 10px;
+}
+
+.ot-dark #wp-calendar tbody td {
+      background-color: #494949; border-color: #6f6f6f;
+  }
+.ot-dark #wp-calendar tbody {
+      color: #E0E0E0;
+  }
+.ot-dark #wp-calendar thead th {
+      color: #E0E0E0;
+  }
+
+/* sidebar widgets tag cloud */
+.widget_tag_cloud .tag_item {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px !important;
+  font-weight: 300;
+  letter-spacing: 1px;
+  background-color: #CBCBCB;
+  margin: 4px 7px;
+
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.ot-dark .widget_tag_cloud .tag_item {
+  background-color: #494949;
+}
+
+.widget_tag_cloud .tag_item a {
+color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 5px 0px 5px 10px;
+  display: inline-block;
+}
+
+.widget_tag_cloud .tag_item span {
+  background-color: #ACB9E0;
+  padding: 4px 8px;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 500;
+  bottom: 5px;
+  right: -9px;
+  position: relative;
+}
+
+.ot-dark .widget_tag_cloud .tag_item span {
+  background-color: #3F4C73;
+}
+
+.widget_tag_cloud .tag_item:hover {
+background: #CC0000;
+}
